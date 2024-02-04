@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Garanta que está apontando para a branch correta, pode ser 'main' em alguns casos
+      - main  # Garanta que está apontando para a branch correta, pode ser 'main' em alguns casos
 
 jobs:
   build-and-deploy:
