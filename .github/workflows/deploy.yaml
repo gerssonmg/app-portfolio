@@ -26,6 +26,6 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        # token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages  # Branch destino para o deploy
         folder: build  # Pasta que contém os arquivos de build para deploy
