@@ -9,7 +9,7 @@ import '@fontsource/roboto/700.css';
 import Button from '@mui/material/Button';
 
 function ButtonUsage() {
-  return <Button variant="contained">Hello world</Button>;
+  return <Button variant="contained">Hello world - v0</Button>;
 }
 
 function App() {
