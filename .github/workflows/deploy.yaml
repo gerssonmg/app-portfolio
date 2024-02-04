@@ -2,10 +2,10 @@ name: Deploy to GitHub Pages
 
 # Desabiliando esse workflow no momento
 # Aparentemente o deplot default do GH pages, esta funcionando
-# on:
-#  push:
-#    branches:
-#      - main  # Garanta que está apontando para a branch correta, pode ser 'main' em alguns casos
+on:
+  push:
+    branches:
+      - main  # Garanta que está apontando para a branch correta, pode ser 'main' em alguns casos
 
 jobs:
   build-and-deploy:
